@@ -12,7 +12,7 @@ var studente = [
 
     {
         nome: "Emanuele",
-        conome: "Bongiovanni",
+        cognome: "Bongiovanni",
         età: "19"
     }
 
@@ -35,7 +35,7 @@ addStudente.età = prompt("Inserisci l'età");
 studente.push(addStudente)
 
 var demo = [];
-for (var i = 0; j < studente.length; j++){
+for (var i = 0; i < studente.length; i++){
 
     demo.push(" " + studente[i].nome + " " + studente[i].cognome + " " + studente[i].età);
 
