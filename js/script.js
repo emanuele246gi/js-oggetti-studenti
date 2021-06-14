@@ -1,21 +1,20 @@
 // Creare un oggetto che descriva uno studente, con le seguenti proprietà: nome, cognome e età.
 
-var studente [
-
+var studente = [
     {
         nome: "Emanuele",
         conome: "Bongiovanni",
         età: "19"
     }
-]
+];
 
 // Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 
-var addStudente {
+var addStudente = {
     nome: "",
     cognome: "",
     età: ""
-}
+};
 
 addStudente.nome = prompt("Inserisci il nome");
 addStudente.cognome = prompt("Inserisci il cognome");
